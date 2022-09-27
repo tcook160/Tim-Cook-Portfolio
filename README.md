@@ -6,6 +6,9 @@
 
 &nbsp;![portfolio_screenshot](https://user-images.githubusercontent.com/112792888/192406249-857a29bc-42d9-42b8-a3ed-542108d9205b.png)
 
+## Link to Application
+https://tcook160.github.io/Tim-Cook-Portfolio/ 
+
 ## User Story
 
 ```
