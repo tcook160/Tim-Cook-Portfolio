@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.layout {
+    padding: 24px;
+}
+
+.navbar {
+    background: navy;
+    padding: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar--links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.navbar div {
+    font-size: 28px;
+}
+
+.portrait {
+    border: 2px solid black;
+}
+
+.contact-me-container, .about--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+/** Breakpoint code: only apply this class if the screen width is 600px or below */
+@media only screen and (max-width: 600px) {
+    .about--container {
+        padding-top: 14px;
+    }
+
+    .layout {
+        padding: 8px;
+    }
+
+    .navbar div  {
+        font-size: 16px;
+        padding-bottom: 24px;
+    }
+
+    .navbar, .navbar--links, .about--container {
+        flex-direction: column;
+    }
+}
+
