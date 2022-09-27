@@ -10,6 +10,7 @@ a:hover {
     padding: 24px;
 }
 
+/** Styling for navigation bar**/
 .navbar {
     background: navy;
     padding: 24px;
@@ -19,6 +20,7 @@ a:hover {
     justify-content: space-between;
 }
 
+/** Styling for links in navigation bar**/
 .navbar--links {
     display: flex;
     align-items: center;
@@ -30,10 +32,12 @@ a:hover {
     font-size: 28px;
 }
 
+/** Styling for portrait image **/
 .portrait {
     border: 2px solid black;
 }
 
+/** Styling for contact information **/
 .contact-me-container, .about--container {
     display: flex;
     flex-direction: row;
