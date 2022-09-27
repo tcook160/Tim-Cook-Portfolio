@@ -10,7 +10,7 @@ a:hover {
     padding: 24px;
 }
 
-/** Styling for navigation bar**/
+/** Styling for navigation bar **/
 .navbar {
     background: navy;
     padding: 24px;
@@ -20,7 +20,7 @@ a:hover {
     justify-content: space-between;
 }
 
-/** Styling for links in navigation bar**/
+/** Styling for links in navigation bar **/
 .navbar--links {
     display: flex;
     align-items: center;
